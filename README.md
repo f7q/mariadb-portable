@@ -9,6 +9,11 @@
 `bin> mysql_install_db.exe -d data_01 -p root -D`  
 `mv C:\mariadb-10.3.8-win32\bin\data_01 C:\mariadb-10.3.8-win32\data_01`  
 `vim C:\mariadb-10.3.8-win32\data_01\my.ini`  
+
+--------------
+`bin> mysql_install_db.exe -d C:\mariadb-10.3.8-win32\data_01 -p root -D ` 
+
+
 ```diff
 [mysqld]
 - datadir=C:/mariadb-10.3.8-win32/bin/data_01
